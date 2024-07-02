@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffd93d;
+}
+
+body.dark-mode {
+    background: #333;
+    color: #fff;
+}
+
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 700px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+body.dark-mode .app {
+    background: #444;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+body.dark-mode .header {
+    border-bottom: 1px solid #bbb;
+}
+
+.header h1 {
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+}
+
+body.dark-mode .header h1 {
+    color: #fff;
+}
+
+.quiz {
+    padding: 30px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+body.dark-mode .quiz h2 {
+    color: #fff;
+}
+
+.btn {
+    background: #fff;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+body.dark-mode .btn {
+    background: #100f0f;
+    color: #fff;
+    border: 1px solid #bbb;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+body.dark-mode .btn:hover:not([disabled]) {
+    background: #ddd;
+    color: #333;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    display: none;
+    background: #222;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body.dark-mode #next-btn {
+    background: #ddd;
+    color: #333;
+}
+
+.correct {
+    background: #09ee6c;
+}
+
+body.dark-mode .correct {
+    background: #2ecc71;
+}
+
+.incorrect {
+    background: #db0c0c;
+}
+
+body.dark-mode .incorrect {
+    background: #e74c3c;
+}
+
+.toggle-btn {
+    background: #222;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 20px;  /* Adjusted for icon size */
+}
+
+body.dark-mode .toggle-btn {
+    background: #ddd;
+    color: #333;
+}
+
+.toggle-btn i {
+    font-size: 20px;  /* Adjust icon size as needed */
+} 
+
+
+
